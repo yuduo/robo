@@ -1,0 +1,639 @@
+@media screen and (max-width: 750px) {
+    body {
+        /*overflow: hidden;*/
+        position: relative;
+        min-height: 100%;
+        height: 100%;
+        padding-top: 50px;
+        overflow-x: hidden;
+    }
+    .nav_big {
+        min-height: 0;
+    }
+    .pnone_nav_r{
+        display: none;
+    }
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    .center {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav_right {
+        display: none;
+    }
+
+    .nav_left {
+        width: 100%;
+        float: none;
+        margin-left: 0 !important;
+        position: fixed;
+        z-index: 111;
+        left: 0;
+        top: 0;
+        background: #090a0c;
+        transition: 0.6s;
+    }
+
+    .nav_left .pnone_nav_r {
+        position: absolute;
+        width: 1.3rem;
+        right: 15px;
+        display: none;
+    }
+
+    .phone_nav_title {
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 16px;
+        overflow: hidden;
+        height: 50px;
+    }
+
+    .nav_top_icon {
+        display: block;
+        position: absolute;
+        left: 15px;
+        top: 0;
+        width: 35px;
+        height: 50px;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+    .nav_top_icon span {
+        display: block;
+        width: 35px;
+        height: 3px;
+        background: #ffffff;
+        margin: 9px 0;
+        border-radius: 2px;
+        transition: 0.6s;
+        opacity: 1;
+    }
+
+    /*    .nav_top_icon span:nth-child(2){
+            transition: 0.3s;
+        }*/
+    .phone_menu span:nth-child(1) {
+        position: absolute;
+        transform: rotate(45deg);
+        top: 13px;
+        left: 0;
+    }
+
+    .phone_menu span:nth-child(2) {
+        position: absolute;
+        top: 15px;
+        margin-left: -35px;
+        opacity: 0;
+    }
+
+    .phone_menu span:nth-child(3) {
+        position: absolute;
+        transform: rotate(-45deg);
+        top: 13px;
+        left: 0;
+
+    }
+
+    .phone_menu_nav {
+        display: block;
+        position: fixed;
+        width: 60%;
+        left: -60%;
+        top: 0;
+        bottom: 0;
+        background: #272727;
+        z-index: 99999;
+        transition: 0.6s;
+    }
+
+    .phone_menu_nav ul {
+        padding: 0 15px;
+    }
+
+    .phone_menu_nav ul li {
+
+        line-height: 1rem;
+        position: relative;
+
+    }
+    .phone_menu_nav .right_down{
+        position: absolute;
+        right: 0.2rem;
+        top:0.35rem;
+        width: 0.3rem;
+    }
+    .phone_menu_nav ul li a {
+        display: block;
+        font-size: 16px;
+        color: #ffffff;
+        border-bottom: 1px solid #3e3e3e;
+    }
+
+    .phone_menu_nav ul .phone_nav_first ul.phone_nav_second {
+        display: none;
+    }
+
+    .phone_menu_open {
+        left: 0;
+    }
+
+    #mobile_main {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        transition: 0.6s;
+    }
+
+    /*主要内容开始*/
+    .mobile_con {
+        padding: 0 15px;
+    }
+
+    /*banner开始*/
+    #banner .swiper-button-prev, #banner .swiper-button-next {
+        display: none;
+    }
+
+    /*banner结束*/
+    .roobo-intr p {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+
+    .product-module .p_explain {
+        line-height: 0.44rem;
+        padding: 0 30px;
+    }
+
+    .product-module .product-list {
+        width: auto;
+        padding: 0 10px;
+    }
+
+    .product-list li {
+        width: 33.3333%;
+        margin-bottom: 0.6rem;
+    }
+
+    .product-list li:nth-child(4) {
+        margin-left: 16.5%;
+    }
+
+    .product-list li {
+        border-right: none;
+    }
+
+    .product-list li .product-img {
+        height: 1.4rem;
+    }
+
+    .roobo-app {
+        padding: 0 15px;
+    }
+
+    .roobo-app .roobo-app-title {
+        top: -1.4rem;
+    }
+
+    .roobo-app .app-list {
+        float: none;
+        width: 100%;
+        position: relative;
+        margin: 15px 0;
+    }
+
+    .roobo-app .app-list .hover-content-bg {
+        overflow: hidden;
+        height: 4rem;
+    }
+
+    .roobo-app .app-list .hover-content-bg img {
+        margin-top: -50%;
+    }
+
+    .roobo-app .app-list .hover-content {
+        position: static;
+
+    }
+
+    .roobo-app .app-list .hover-content img {
+        display: none;
+    }
+
+    .roobo-app .app-list .hover-content .text1 {
+        text-align: left;
+        font-size: 0.34rem;
+        font-weight: 400;
+        color: #333;
+        line-height: 1.1;
+        padding: .26667rem 0
+    }
+
+    .roobo-app .app-list .hover-content .text2 {
+        opacity: 1;
+        text-align: left;
+        padding: 0;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #666;
+    }
+
+    .roobo-app .app-list:hover .hover-content img {
+        margin-top: 0;
+    }
+
+    .roobo-app .app-list:hover .hover-content {
+        background: rgba(0, 185, 239, 0);
+    }
+
+    .roobo-app .app-list:hover .hover-content .text1 {
+        padding: .26667rem 0;
+    }
+
+    .roobo-app .app-list:hover .hover-content .text1::after {
+        bottom: 0;
+        width: 0;
+    }
+
+    .product-details ul {
+        padding: 15px;
+    }
+
+    .product-details-main {
+        width: 100%;
+        margin-bottom: 0.3rem;
+    }
+
+    .product-details-main .text-content-box .product-details_top_title .more {
+        display: block;
+        text-align: right;
+    }
+
+    .product-details-main .text-content-box .product-details_top_title .more img {
+        display: block;
+        width: 35%;
+        margin-left: 55%;
+        margin-top: 0.16rem;
+    }
+
+    .product-details-main:hover img {
+        transform: scale(1);
+    }
+
+    .product-details-main:hover .text-content-box .text-content-box_son {
+        background: none;
+        height: 0;
+    }
+
+    .product-details-main:hover .text-content-box {
+        background: none;
+    }
+
+    .product-details-main:hover .text-content-box .product-details_top_title {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    /*首页新闻*/
+    .inner-news .list-news {
+        padding: 0 15px;
+    }
+
+    .inner-news .list-news .news-li {
+        float: none;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .news-table .table-li a .time {
+        width: 2rem;
+    }
+
+    .news-li .news-table .table-li a .title {
+        width: 4.7rem;
+    }
+
+    .inner-news .list-news .news-li:hover {
+        margin-top: 1rem;
+    }
+
+    .video img {
+        width: 200%;
+        margin-left: -50%;
+    }
+
+    /*主要内容结束*/
+    /*底部开始*/
+    .booter_big ul {
+        width: 100%;
+        display: none;
+    }
+
+    .booter_big ul .booter_big_list {
+        width: 32%;
+    }
+
+    .booter_big ul .booter_big_list img {
+        float: none;
+        margin: 0.2rem auto;
+    }
+
+    .booter_big ul .booter_big_list span {
+        float: none;
+    }
+
+    /*底部结束*/
+    /*产品页面开始*/
+    #product_big .sec .product-list_l {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #product_big .sec .product-list_l .product-list_l_con {
+        width: 90%;
+    }
+
+    #product_big .sec .product-list_l a {
+        margin: 0.5rem auto;
+    }
+
+    #product_big .sec .product-list_r {
+        float: none;
+        width: 100%;
+    }
+
+    /*产品页面结束*/
+    /*公司信息开始*/
+    #about-us .place-module {
+        display: none;
+    }
+
+    #about-us .roobo-info_fa {
+        position: static;
+    }
+
+    #about-us .roobo-info {
+        background: none;
+        width: 100%;
+        height: auto;
+        padding: 1.2rem 0;
+    }
+
+    #about-us .ab-banner {
+
+        background: url("../images/ab-banner.jpg"/*tpa=http://www.robotechn.com/statics/my/images/ab-banner.jpg*/) no-repeat center;
+        background-size: cover;
+    }
+
+    #about-us .ab-banner img {
+        display: none;
+    }
+
+    #about-us .roobo-info h3 {
+        margin-top: 0;
+    }
+
+    #about-us .ab-culture > p, .pro-series > p {
+        padding: 0 15px;
+    }
+
+    #about-us .pro-series ul {
+        width: 100%;
+    }
+
+    #about-us .pro-series li {
+        width: 25%;
+        text-align: center;
+        padding-top: .4rem;
+        float: left;
+    }
+
+    .pro-series li:nth-child(5) {
+        margin-left: 12%;
+    }
+
+    #about-us .pro-series i.icon-rosai {
+        background-size: .93333rem .72rem;
+    }
+
+    #about-us .pro-series i.icon-xp {
+        background-size: 1.05333rem .73333rem;
+    }
+
+    #about-us .pro-series i.icon-puddings {
+        background-size: .66667rem .73333rem;
+    }
+
+    #about-us .pro-series i.icon-beanq {
+        background-size: .77333rem .97333rem;
+    }
+
+    #about-us .pro-series i.icon-domgy {
+        height: 1.84rem;
+        background-size: 1.10667rem .86667rem;
+    }
+
+    #about-us .pro-series i.icon-jelly {
+        height: 1.84rem;
+        background-size: .76rem 1.28rem;
+    }
+
+    #about-us .pro-series i.icon-far {
+        height: 1.84rem;
+        background-size: .77333rem 1.8rem;
+    }
+
+    #about-us .ab-oooo .roobo-icon {
+        width: 100%;
+        height: 3.5rem;
+    }
+
+    #about-us .ab-oooo .meaning-oooo {
+        padding: 0.4rem 0;
+    }
+
+    #about-us .meaning-list {
+        width: 100%;
+    }
+
+    #about-us .meaning-list li {
+        width: 50%;
+        margin-bottom: 0.3rem;
+    }
+
+    #about-us .meaning-list li .en-text {
+        font-size: 0.4rem;
+    }
+
+    /*公司信息结束*/
+    /*公司招聘开始*/
+    .ju-tab-list {
+        width: 100%;
+    }
+
+    .ju-tab-list li {
+        width: 50%;
+    }
+
+    .ju-tab-list li a {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px 5%;
+    }
+
+    /*公司招聘结束*/
+    /*联系我们开始*/
+    #contact_us .place-list {
+        padding: 0 15px;
+    }
+
+    #contact_us .place-list .place-name {
+        width: 1rem;
+        margin-right: 0.5rem;
+        font-size: 0.4rem;
+    }
+
+    #contact_us .place-list .place-minute {
+        font-size: 12px;
+    }
+
+    #contact_us .place-list li:hover {
+        background: none;
+        color: #a4a4a4
+    }
+
+    #contact_us .place-list li:hover .place-minute {
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+    }
+
+    #contact_us .place-list li:hover .place-name:after {
+        width: 0;
+    }
+
+    #contact_us .email-box .email-main {
+        width: auto;
+        padding: 0 15px;
+    }
+
+    #contact_us .email-box {
+        padding: 0.9rem 0 0;
+    }
+
+    #contact_us .email-box .email-list li {
+        float: none;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #222225;
+        margin-bottom: .4rem;
+        padding-bottom: .4rem;
+    }
+
+    #contact_us .email-box .email-list li:last-child {
+        border-bottom: none;
+    }
+
+    #contact_us .email-box .email-list li a {
+        display: inline-block;
+        padding: 0 0 0 1.6rem;
+        color: #7c7c7c;
+        position: relative;
+        text-align: left;
+        min-width: 5.33333rem;
+    }
+
+    #contact_us .email-box .inner-tel {
+        padding: 0.4rem 0;
+        font-size: 0.36rem;
+        background: #15161b;
+    }
+
+    #contact_us .email-box .inner-tel .tel {
+        font-size: 0.42rem;
+    }
+
+    /*联系我们结束*/
+    /*产品详情开始*/
+    #roobot_parameter .sec2 table .pl83 {
+        padding-left: 15px;
+    }
+
+    /*产品详情结束*/
+    /*定制页面开始*/
+    #design .design_title {
+        line-height: 0.5rem;
+    }
+
+    #design .design_title h3 {
+        font-size: 0.4rem;
+    }
+
+    #design .design_title img {
+        width: 0.7rem;
+    }
+
+    /*定制页面结束*/
+    /*新闻列表开始*/
+    #honor .honor_list{
+        height: auto;
+    }
+    #honor .g-title h2.enterprise-event{
+        width: 3.36rem;
+        background-size: cover;
+        height: 0.44rem;
+    }
+    #honor .honor_big{
+        float: left;
+        width: 5rem;
+    }
+    #honor  .honor_list .honor_line{
+        display: none;
+    }#honor  .honor_list .honor_time{
+         float: left;
+         width: 1.6rem;
+     }
+    #honor .honor_list .honor_time h3{
+        float: left;
+        width: 1.1rem;
+        font-size: 0.36rem;
+    }
+    #honor  .honor_list .honor_time p{
+        float: left;
+        line-height: 0.54rem;
+    }
+    #honor  .honor_list .honor_img{
+        width: 2rem;
+        height: 1.076rem;
+    }
+    #honor  .honor_list .honor_img img{
+        height: 1.076rem;
+    }
+    #honor .honor_list .honor_cont{
+        width: 3.4rem;
+        float: left;
+        margin-top: 0;
+        line-height: 0.54rem;
+        height: 0.54rem;
+    }
+    /*新闻列表结束*/
+}
+@media screen and (max-width: 1440px) {
+    .nav_left{
+        margin-left: 1%;
+    }
+    .nav_right {
+        margin-right: 1%;
+    }
+}

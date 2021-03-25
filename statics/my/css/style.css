@@ -1,0 +1,1676 @@
+/*头部开始*/
+body {
+    font-family: Arial, "Microsoft YaHei";
+}
+/*@media screen and (min-width: 768px){
+    html,body{
+        min-width: 1920px;
+    }
+}*/
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.phone_menu_nav {
+    display: none;
+}
+
+.nav_big {
+    background-color: rgba(9,10,12,1);
+    width: 100%;
+    min-height: 69px;
+}
+.nav_fixed{
+    background-color: rgba(9,10,12,0.85);
+    position: fixed;
+    z-index: 9999999;
+}
+.nav_left {
+    margin-left: 5%;
+    float: left;
+}
+.nav_left .pnone_nav_r{
+    width: 258px;
+    margin-top: 10px;
+}
+.nav_left img {
+    display: block;
+    width: 100%;
+}
+
+.phone_nav_title {
+    display: none;
+}
+
+.nav_top_icon {
+    display: none;
+}
+
+.nav_right {
+    float: right;
+    margin-right: 5%;
+}
+
+.nav_right ul .nav_first {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 110px;
+}
+
+.nav_first a {
+    color: #c3c3c3;
+    font-size: 14px;
+    line-height: 69px;
+}
+
+.nav_second {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    top: 69px;
+    background: #fff;
+    width: 120px;
+    overflow: hidden;
+    display: none;
+}
+
+.nav_second li {
+    overflow: hidden;
+    height: 64px;
+    transition: 0.7s;
+}
+.pnone_nav_r{
+    float: left;
+}
+
+.nav_second a {
+    color: #1f1f1f;
+    text-align: left;
+}
+
+.nav_right ul .nav_first:hover .nav_second {
+    height: auto;
+    overflow: visible;
+}
+
+.nav_right ul .nav_first:hover .nav_second li {
+    height: auto;
+}
+
+.nav_second li:hover a {
+    color: #00b9ef;
+}
+
+.nav_second li:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.nav_third {
+    position: absolute;
+    width: 280px;
+    height: 276px;
+    left: 120px;
+    z-index: 9;
+    top: 0;
+    background: #fff;
+    display: none;
+    overflow: hidden;
+}
+
+.nav_second li:hover .nav_third {
+    display: block;
+}
+.nav_third_cont img{
+    margin-top: 15px;
+    height: 235px;
+    max-width: 100%;
+}
+.nav_third_cont p{
+    padding: 0 15px;
+    text-align: left;
+    padding-top: 10px;
+}
+.mobile_con {
+    padding: 0;
+}
+
+/*头部结束*/
+/*banner开始*/
+#banner img {
+    display: block;
+    width: 100%;
+}
+
+#banner .swiper-button-prev,#banner .swiper-button-next{
+    opacity: 0;
+    transition: 0.3s;
+}
+#banner:hover .swiper-button-prev,#banner:hover .swiper-button-next{
+    opacity: 1;
+}
+
+/*banner结束*/
+
+/*主要内容开始*/
+/*ROOBO*/
+.roobo-intr {
+    padding: 0.95rem 15px;
+    background: #25262e;
+    text-align: center;
+}
+
+.roobo-intr h1 {
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+    color: #00b9ef;
+}
+
+.roobo-intr p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 18px;
+    padding-top: 0.35rem;
+    letter-spacing: 1.3em;
+}
+
+/*ROS.AI 人工智能方案平台*/
+.product-module {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 0 2rem;
+    background: url("../images/module-bg.jpg"/*tpa=http://www.robotechn.com/statics/my/images/module-bg.jpg*/) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.product-module .p_title {
+    position: relative;
+    font-size: 0.32rem;
+    line-height: 0.32rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 2.25rem;
+}
+
+.product-module .p_title::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #00b9ef;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    top: 0.66rem;
+}
+
+.product-module .p_explain {
+    line-height: 0.28rem;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 0.78rem;
+    padding: 0 10px;
+    max-width: 924px;
+}
+
+.product-module .product-list {
+    width: 1285px;
+    margin: 0 auto;
+    margin-top: 1.35rem;
+}
+
+.product-list li {
+    width: 19.9%;
+    padding-top: 8px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #303032;
+}
+
+.product-list li:nth-child(5) {
+    border-right: none;
+}
+
+.product-list li .product-img {
+    height: 1.1rem;
+}
+
+.product-list li .product-img img {
+    width: 0.82rem;
+    margin: 0 auto;
+}
+
+.product-list li p {
+    position: relative;
+    line-height: 24px;
+    padding-bottom: 8px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*应用场景*/
+.roobo-app {
+    position: relative;
+}
+
+.roobo-app-title {
+    width: 100%;
+    text-align: center;
+    font-size: 0.32rem;
+    line-height: 1;
+    color: #fff;
+    position: absolute;
+    top: -0.8rem;
+}
+
+.roobo-app .app-list {
+    float: left;
+    width: 20%;
+    position: relative;
+}
+
+.roobo-app .app-list .hover-content-bg img {
+    display: block;
+    width: 100%;
+}
+
+.roobo-app .app-list .hover-content {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(0, 185, 239, 0);
+    text-align: center;
+    -o-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    -webkit-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+}
+
+.roobo-app .app-list .hover-content img {
+    display: inline-block;
+    width: 0.86rem;
+    margin-top: 1.9rem;
+    -o-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    -webkit-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+}
+
+.roobo-app .app-list .hover-content .text1 {
+    font-size: 28px;
+    line-height: 28px;
+    padding: 0.48rem 0 0.3rem;
+    position: relative;
+    color: #fff;
+    -o-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    -webkit-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+}
+
+.roobo-app .app-list .hover-content .text1::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -30px;
+    -o-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    -webkit-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    z-index: 1;
+}
+
+.roobo-app .app-list .hover-content .text2 {
+    opacity: 0;
+    padding: 0 15px;
+    font-size: 13px;
+    line-height: 20px;
+    -webkit-text-align: justify;
+    -moz-text-align: justify;
+    text-align: justify;
+    color: #fff;
+    -o-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    -webkit-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    /*overflow: hidden;*/
+}
+
+.roobo-app .app-list:hover .hover-content img {
+    margin-top: 1rem;
+}
+
+.roobo-app .app-list:hover .hover-content {
+    background: rgba(0, 185, 239, 0.8);
+}
+
+.roobo-app .app-list:hover .hover-content .text1 {
+    padding: 0.48rem 0 0.7rem;
+}
+
+.roobo-app .app-list:hover .hover-content .text1::after {
+    bottom: 0.45rem;
+    width: 60px;
+}
+
+.roobo-app .app-list:hover .hover-content .text2 {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1440px){
+    .roobo-app .app-list .hover-content img {
+        display: inline-block;
+        width: 0.6rem;
+        margin-top: 1rem;
+        -o-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+        -webkit-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+        transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    }
+    .roobo-app .app-list .hover-content .text1 {
+        font-size: 28px;
+        line-height: 28px;
+        padding: 0.48rem 0 0.3rem;
+        position: relative;
+        color: #fff;
+        -o-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+        -webkit-transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+        transition: all .6s cubic-bezier(.215, .61, .355, 1) 0s;
+    }
+    .roobo-app .app-list:hover .hover-content .text1::after {
+        bottom: 0.2rem;
+        width: 60px;
+    }
+    .roobo-app .app-list:hover .hover-content img {
+        margin-top: 0.3rem;
+    }
+    .roobo-app .app-list:hover .hover-content .text1 {
+        padding: 0.15rem 0 0.4rem;
+    }
+}
+
+/*公司产品系列*/
+
+.product-details-title {
+    text-align: center;
+    padding: 0.95rem 0 1.15rem;
+    font-size: 0.36rem;
+    line-height: 1;
+    color: #fff;
+    position: relative;
+    background: #25262e;
+}
+
+.product-details-title::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #00b9ef;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 0.8rem;
+}
+
+.product-details-main {
+    width: 33.333%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-details-main img {
+    display: block;
+    width: 100%;
+    transition: 0.6s;
+}
+
+.product-details-main .text-content-box {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    /*height: 120px;*/
+    transition: 0.6s;
+}
+
+.product-details-main .text-content-box .product-details_top_title {
+    background: rgba(0, 0, 0, 0.8);
+    transition: 0.6s;
+}
+
+.product-details-main:nth-child(2n) .text-content-box .product-details_top_title {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.product-details-main .product-details_top_title h3 {
+    float: left;
+    width: 66%;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #fff;
+    line-height: 1.2rem;
+    height: 1.2rem;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-left: 4%;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.product-details-main .product-details_top_title span {
+    display: block;
+    float: left;
+    width: 30%;
+    font-size: 0.24rem;
+    line-height: 1.2rem;
+    text-align: left;
+    color: #ffffff;
+    height: 1.2rem;
+    overflow: hidden;
+}
+
+.product-details-main .text-content-box .text-content-box_son {
+    width: 100%;
+    overflow: hidden;
+    transition: 0.6s;
+    height: 0;
+}
+
+.product-details-main .text-content-box p.product-details_top {
+    padding: 25px 40px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 14px;
+    opacity: 1;
+    height: auto;
+}
+
+.product-details-main:hover img {
+    transform: scale(1.15);
+}
+
+.product-details-main:hover .text-content-box .text-content-box_son {
+    background: rgba(0, 185, 239, .7);
+    height: 113px;
+}
+
+.product-details-main:hover .text-content-box {
+    background: rgba(0, 185, 239, .7);
+}
+
+.product-details-main:hover .text-content-box .product-details_top_title {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.product-details-main .text-content-box .product-details_top_title .more {
+    display: none;
+}
+
+/*首页新闻开始*/
+
+.inner-news {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background: #1f2023;
+    text-align: center;
+}
+
+.inner-news .main-news {
+    display: inline-block;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.inner-news .list-news .news-li {
+    float: left;
+    width: 375px;
+    margin: 1.8rem 19px 1.6rem;
+    background: #1f2023;
+    text-align: center;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out
+}
+
+.inner-news .list-news .news-li:hover {
+    margin-top: 150px
+}
+
+.list-news .news-li .news-pho {
+    display: block;
+    height: 220px;
+    background: #25262e
+}
+
+.news-pho .img-wrap {
+    width: 90px;
+    padding: 35px 0 17px 0;
+    margin: 0 auto
+}
+
+.news-pho .img-wrap img {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    box-shadow: 0 0 50px rgba(255, 255, 255, .05);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.news-pho .img-wrap .pho-hover {
+    display: none
+}
+
+.news-pho p {
+    font-size: 24px;
+    line-height: 24px;
+    color: #8e8f96;
+    position: relative;
+    margin-top: 0
+}
+
+.news-pho p:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #00b9ef;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    bottom: -15px
+}
+
+.list-news .news-li:hover .news-pho .pho-show {
+    display: none
+}
+
+.list-news .news-li:hover .news-pho .pho-hover {
+    display: block
+}
+
+.list-news .news-li:hover .news-pho p {
+    color: #00c5ff
+}
+
+.list-news .news-main {
+    padding: 22px 0;
+    background: #1f2023;
+    overflow: hidden
+}
+
+.news-main .news-table {
+    overflow: hidden
+}
+
+.news-main .news-table .table-li:after {
+    display: block;
+    line-height: 0;
+    content: "";
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.news-table .table-li a {
+    line-height: 32px;
+    font-size: 14px
+}
+
+.news-table .table-li a .time {
+    width: 100px;
+    display: block;
+    float: left;
+    color: #515662!important;
+}
+.news-table .table-li a .time font{
+    color: #515662!important;
+}
+.news-table .table-li a .title {
+    display: block;
+    float: left;
+    text-align: left;
+    width: 265px;
+    height: 32px;
+    padding-left: 10px;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #d4d7e1;
+    letter-spacing: 1px
+}
+
+.news-table .table-li a .title:hover {
+    color: #fff;
+    background: #10b9ff
+}
+
+/*视频*/
+.video {
+    width: 100%;
+}
+
+.video img {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*主要内容结束*/
+/*底部开始*/
+.booter_big {
+    background: #25262f;
+    text-align: center;
+}
+
+.booter_big ul {
+    float: left;
+    /*width: 1200px;*/
+    width: 80%;
+    padding: 0.6rem 0;
+}
+
+.booter_big ul .booter_big_list {
+    display: inline-block;
+    width: 33%;
+    margin-bottom: 0.2rem;
+}
+
+.booter_big ul .booter_big_list:after {
+    display: block;
+    line-height: 0;
+    content: "";
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.booter_big ul .booter_big_list img {
+    display: block;
+    float: left;
+    width: 28px;
+    margin-left: 40%;
+    margin-right: 4%;
+}
+
+.booter_big ul .booter_big_list span {
+    display: block;
+    float: left;
+    font-size: 16px;
+    line-height: 32px;
+}
+.booter_big .booter_big_vx{
+    float: right;
+    width:20% ;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.booter_big .booter_big_vx img{
+    display: inline-block;
+    width: 106px;
+}
+.jishu {
+    background: #090a0c;
+    padding: 4px 0;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+}
+
+.jishu p {
+    color: #646464;
+}
+
+.jishu p:last-child {
+    color: #464646;
+}
+
+/*底部结束*/
+
+/*产品列表开始*/
+#product_big .sec {
+    width: 100%;
+    background: url("../images/product-bg1.jpg"/*tpa=http://www.robotechn.com/statics/my/images/product-bg1.jpg*/) no-repeat center;
+    background-size: cover;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+#product_big .sec:nth-child(2n) {
+    background: url("../images/product-bg2.jpg"/*tpa=http://www.robotechn.com/statics/my/images/product-bg2.jpg*/) no-repeat center;
+    background-size: cover;
+}
+
+#product_big .sec .product-list_l {
+    float: left;
+    width: 50%;
+}
+
+#product_big .sec .product-list_l .product-list_l_con {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#product_big .sec .product-list_r {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+#product_big .sec .product-list_r img {
+    display: block;
+    width: 100%;
+}
+
+#product_big .sec:nth-child(2n) .product-list_l, #product_big .sec:nth-child(2n) .product-list_r {
+    float: right;
+}
+
+#product_big .sec .product-list_l h2 {
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
+#product_big .sec .product-list_l p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 0.4rem;
+}
+
+#product_big .sec .product-list_l a {
+    display: block;
+    width: 120px;
+    background: #a90f21;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 0.5rem;
+    transition: 0.3s;
+    letter-spacing: 5px;
+}
+
+#product_big .sec:nth-child(2n) .product-list_l h2 {
+    color: #202020;
+}
+
+#product_big .sec:nth-child(2n) .product-list_l p {
+    color: #606060;
+}
+
+#product_big .sec .product-list_l a:hover {
+    background: #de7920;
+}
+
+/*产品列表结束*/
+
+/*公司信息开始*/
+/*.about-us {
+    padding:0 0 0;
+}*/
+
+
+#about-us .ab-banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#about-us .ab-banner img {
+    display: block;
+    position: relative;
+    width: 1920px;
+    margin: 0 auto
+}
+
+#about-us .roobo-info_fa {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#about-us .roobo-info {
+    /*background: url(../images/earth.png) no-repeat center;*/
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 744px;
+    text-align: center;
+    color: #ffffff;
+    padding: 33px 0 0;
+    margin: 0 auto;
+    text-indent:30px;
+}
+
+#about-us .roobo-info h3 {
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 10px;
+    opacity: 1;
+    margin-top: 50px;
+}
+
+#about-us .roobo-info p span {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    display: block;
+    margin-top: 10px
+}
+
+/*@media (min-width:1281px) {*/
+/* .roobo-info {
+     padding: 120px 0 0;
+     height: 540px;
+     width: 540px;
+     margin-left: -270px;
+     margin-top: -270px
+ }*/
+
+#about-us .roobo-info h3 {
+    margin-bottom: 20px
+}
+
+#about-us .roobo-info p {
+    font-size: 14px;
+    text-align: left;
+    border: solid 3px rgba(255,255,255,0.4);
+    background-color: rgba(0,0,0,0.22);
+    border-radius: 30px;
+    padding: 15px;
+}
+
+/*}*/
+
+#about-us .place-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: all 1s;
+    opacity: .6
+}
+
+#about-us .place-box:hover {
+    opacity: 1
+}
+
+#about-us .place-box .place-round {
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 15px;
+    background: #848484;
+    margin: 7px
+}
+
+#about-us .place-box .place-name {
+    font-size: 14px;
+    color: #fff;
+    line-height: 27px
+}
+
+#about-us .place-box .place-round-gray {
+    background: #fff
+}
+
+#about-us .place-box.place-box-opacity {
+    opacity: 0
+}
+
+#about-us .place-box.Seattle {
+    left: 20%;
+    top: 25%
+}
+
+#about-us .place-box.Moscow {
+    left: 65%;
+    top: 22%
+}
+
+#about-us .place-box.Beijing {
+    left: 80%;
+    top: 30%;
+    opacity: .9
+}
+
+#about-us .place-box.Beijing .place-round {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    background: #fff
+}
+
+#about-us .place-box.Seoul {
+    left: 86%;
+    top: 35%
+}
+
+#about-us .place-box.Suzhou {
+    left: 85%;
+    top: 50%
+}
+
+#about-us .place-box.Chengdu {
+    left: 75%;
+    top: 55%
+}
+
+#about-us .place-box.Shenzhen {
+    left: 80%;
+    top: 60%
+}
+
+#about-us .ab-culture, .pro-series {
+    background-color: #252630;
+    color: #a1a1a1;
+    padding: 70px 0 60px;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#about-us .ab-culture > h3, .pro-series > h3 {
+    font-size: 36px;
+    color: #d9d9d9;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+#about-us .ab-culture > p, .pro-series > p {
+    line-height: 26px
+}
+#about-us .ab-culture > p{
+    width: 92%;
+    max-width: 589px;
+}
+#about-us .pro-series {
+    background-color: #15161b
+}
+
+#about-us .pro-series ul {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px
+}
+
+#about-us .pro-series li {
+    width: 14.28%;
+    float: left
+}
+
+#about-us .pro-series li p {
+    font-size: 14px;
+    line-height: 1;
+    color: #a1a1a1;
+    padding-top: 25px
+}
+
+#about-us .pro-series i {
+    display: block;
+    width: 100%;
+    height: 135px;
+    background-position: center bottom;
+    background-repeat: no-repeat
+}
+
+#about-us .pro-series .icon-rosai {
+    background-size: 70px 52px;
+    background-image: url("../images/icon-rosai@2x.png"/*tpa=http://www.robotechn.com/statics/my/images/icon-rosai@2x.png*/)
+}
+
+#about-us .pro-series .icon-xp {
+    background-size: 79px 55px;
+    background-image: url("../images/icon-xp@2x.png"/*tpa=http://www.robotechn.com/statics/my/images/icon-xp@2x.png*/)
+}
+
+#about-us .pro-series .icon-puddings {
+    background-size: 50px 55px;
+    background-image: url("../images/icon-puddings@2x.png"/*tpa=http://www.robotechn.com/statics/my/images/icon-puddings@2x.png*/)
+}
+
+#about-us .pro-series .icon-beanq {
+    background-size: 58px 72px;
+    background-image: url("../images/icon-beanq@2x.png"/*tpa=http://www.robotechn.com/statics/my/images/icon-beanq@2x.png*/)
+}
+
+#about-us .pro-series .icon-domgy {
+    background-size: 83px 85px;
+    background-image: url("../images/icon-domgy@2x.png"/*tpa=http://www.robotechn.com/statics/my/images/icon-domgy@2x.png*/)
+}
+
+#about-us .pro-series .icon-jelly {
+    background-size: 57px 86px;
+    background-image: url("../images/icon-jelly@2x.png"/*tpa=http://www.robotechn.com/statics/my/images/icon-jelly@2x.png*/)
+}
+
+#about-us .pro-series .icon-far {
+    background-size: 58px 135px;
+    background-image: url("../images/icon-far@2x.png"/*tpa=http://www.robotechn.com/statics/my/images/icon-far@2x.png*/)
+}
+
+#about-us .ab-oooo {
+    padding: 50px 0 70px;
+    position: relative;
+    margin: 0 auto;
+    background: #15161b;
+}
+
+#about-us .ab-oooo .roobo-icon {
+    margin: 0 auto;
+    width: 890px;
+    height: 350px;
+    overflow: hidden;
+    background-image: url("../images/roobo-icon@2x.png"/*tpa=http://www.robotechn.com/statics/my/images/roobo-icon@2x.png*/);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    -webkit-background-size: contain;
+    background-size: contain
+}
+
+#about-us .ab-oooo .meaning-oooo {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 22px;
+    color: #666
+}
+
+#about-us .ab-oooo .meaning-oooo > span {
+    color: #00b9ef
+}
+
+#about-us .ab-oooo .meaning-oooo > span b {
+    font-weight: 400;
+    font-family: Arial
+}
+
+#about-us .meaning-list {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 920px
+}
+
+#about-us .meaning-list li {
+    float: left;
+    width: 230px
+}
+
+#about-us .meaning-list li .mean-img {
+    margin: 0 auto;
+    text-align: center;
+    width: 80px;
+    height: 80px
+}
+
+#about-us .meaning-list li .mean-img img {
+    width: 100%
+}
+
+#about-us .meaning-list li .en-text {
+    font-size: 20px;
+    color: grey;
+    text-align: center
+}
+
+#about-us .meaning-list li .en-text span {
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    padding: 0 2px;
+    font-family: Arial
+}
+
+#about-us .meaning-list li .cn-text {
+    color: grey;
+    font-size: 14px;
+    text-align: center
+}
+
+/*公司信息结束*/
+
+/*资质荣誉开始*/
+#honor {
+    background: #15161b;
+}
+#honor .g-title{
+    margin-bottom: 50px;
+    padding-top: 80px;
+}
+#honor .g-title h2.enterprise-event {
+    background: url("../images/enterprise-event.png"/*tpa=http://www.robotechn.com/statics/my/images/enterprise-event.png*/) no-repeat center;
+    text-align: center;
+    width: 40%;
+    height: 44px;
+    text-indent: -9999px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-size: cover;*/
+}
+#honor .g-title p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+#honor .honor_list {
+    padding: 0.1rem ;
+    height: 160px;
+    border-bottom: 1px solid #232323;
+}
+#honor .honor_list:last-child{
+    border-bottom: none;
+}
+#honor .honor_list a{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#honor .honor_list .honor_time {
+    float: left;
+    width: 100px;
+
+}
+
+#honor .honor_list .honor_time h3 {
+    font-size: 36px;
+    text-align: right;
+    transition: 0.6s;
+}
+
+#honor .honor_list .honor_time p {
+    font-size: 14px;
+    color: #7a7a7a;
+    text-align: right;
+    transition: 0.6s;
+}
+
+#honor .honor_list .honor_line {
+    float: left;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #4d4d4d;
+    margin-top: 36px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.6s;
+}
+
+#honor .honor_list .honor_cont {
+    float: left;
+    font-size: 16px;
+    margin-top: 24px;
+    width: 600px;
+    height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#honor .honor_list .honor_img {
+    float: right;
+    width: 260px;
+    overflow: hidden;
+    height: 140px;
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: 0.6s;
+}
+
+#honor .honor_list .honor_img img {
+    display: block;
+    width: 100%;
+    height: 140px;
+}
+
+#honor .honor_list:hover .honor_line {
+    width: 120px;
+    background: #00b9ef;
+}
+#honor .honor_list:hover .honor_time h3 {
+    color: #00b9ef;
+}
+
+#honor .honor_list:hover .honor_time p {
+    color: #00b9ef;
+}
+
+#honor .honor_list:hover .honor_img {
+    opacity: 1;
+}
+#honor .honor_list:hover .honor_cont{
+    color: #00b9ef;
+}
+/*资质荣誉结束*/
+/*公司招聘开始*/
+.contact-map, .ju-banner {
+    width: 100%;
+    text-align: center;
+}
+.contact-map img, .ju-banner img {
+    display: block;
+    width: 100%;
+}
+#join_us{
+    background: #15161b;
+    overflow: hidden;
+}
+#join_us .g-title{
+    margin-bottom: 50px;
+    padding-top: 80px;
+}
+#join_us .g-title h2.enterprise-event {
+    background: url("../images/join-us.png"/*tpa=http://www.robotechn.com/statics/my/images/join-us.png*/) no-repeat center;
+    text-align: center;
+    width: 100%;
+    height: 44px;
+    text-indent: -9999px;
+    margin-bottom: 15px;
+}
+#join_us .g-title p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+#join_us .ju-tab-menu{
+    text-align: center;
+}
+#join_us .ju-tab-menu a{
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+.ju-tab-menu a.active, .ju-tab-menu a:hover{
+    color: #00b9ef;
+}
+.ju-tab-list{
+    width: 1200px;
+    padding: 40px 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ju-tab-list ul{
+    display: none;
+    overflow: hidden;
+}
+.ju-tab-list ul.block{
+    display: block;
+}
+.ju-tab-list li {
+    float: left;
+    display: inline;
+    width: 33.333%;
+    min-height: 130px;
+    border-bottom: 1px solid #222329;
+    margin-bottom: -1px;
+}
+.ju-tab-list li a {
+    width: 60%;
+    color: #c7c7c7;
+    opacity: .6;
+    padding: 20px 30px;
+    display: block;
+    border-radius: 5px;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.ju-tab-list li a h3 {
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+}
+.ju-tab-list li a h3:after {
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+    content: '';
+    width: 15%;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.ju-tab-list li a p {
+    font-size: 14px;
+}
+.ju-tab-list li a:hover {
+    color: #fff;
+    background-color: #00b9ef;
+    opacity: .8;
+}
+.ju-tab-list li a:hover h3:after {
+    width: 100%;
+    border-bottom-color: rgba(255,255,255,.7);
+}
+.ju-more {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.ju-more a {
+    border: 1px solid #555;
+    display: inline-block;
+    width: 135px;
+    line-height: 36px;
+    text-align: center;
+    color: #c7c7c7;
+    border-radius: 4px;
+    font-size: 14px;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out
+}
+
+.ju-more a:hover {
+    color: #fff;
+    background-color: #00b9ef;
+    border-color: #00b9ef
+}
+
+/*公司招聘结束*/
+/*联系我们开始*/
+#contact_us{
+    background: #15161b;
+    overflow: hidden;
+}
+#contact_us .g-title{
+    margin-bottom: 50px;
+    padding-top: 80px;
+}
+#contact_us .g-title h2.enterprise-event {
+    background: url("../images/contact-us.png"/*tpa=http://www.robotechn.com/statics/my/images/contact-us.png*/) no-repeat center;
+    text-align: center;
+    width: 100%;
+    height: 44px;
+    text-indent: -9999px;
+    margin-bottom: 15px;
+}
+#contact_us .g-title p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+#contact_us .place-list {
+    margin-bottom: 40px;
+}
+
+#contact_us .place-list li {
+    overflow: hidden;
+    padding: 30px 0;
+    color: #a4a4a4;
+    border-bottom: 1px solid #262629;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out
+}
+
+#contact_us .place-list li:last-child {
+    border-bottom: none
+}
+
+#contact_us .place-list li:hover {
+    background-color: #262629;
+    color: #00b9ef
+}
+
+#contact_us .place-list li:hover .place-minute {
+    -webkit-transform: translate(80px);
+    -moz-transform: translate(80px)
+}
+
+#contact_us .place-list li:hover .place-name:after {
+    width: 50px;
+    border-bottom-color: #00b9ef
+}
+
+#contact_us .place-list .place-name {
+    font-size: 32px;
+    float: left;
+    width: 270px;
+    text-align: right;
+    margin-right: 50px;
+    line-height: 1.5;
+    position: relative
+}
+
+#contact_us .place-list .place-name:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    overflow: hidden;
+    left: 320px;
+    top: 50%;
+    margin-top: -10px;
+    border-bottom: 1px solid #4d4d4d;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease
+}
+
+#contact_us .place-list .place-name-bottom {
+    font-size: 12px
+}
+
+#contact_us .place-list .place-minute {
+    font-size: 16px;
+    padding: 10px 0 0;
+    overflow: hidden;
+    zoom: 1;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease
+}
+#contact_us .email-box {
+    background: #0e0f14;
+    padding: 90px 0
+}
+
+#contact_us .email-box .email-main {
+    margin: 0 auto;
+    width: 900px
+}
+
+#contact_us .email-box .email-list  {
+    overflow: hidden;
+    width: 100%
+}
+
+#contact_us .email-box .email-list  li {
+    float: left;
+    width: 33.3333%;
+    padding-left: 4%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#contact_us .email-box .email-list  li .p-title {
+    font-size: 18px
+}
+
+#contact_us .email-box .email-list  li .p-email {
+    font-size: 14px
+}
+
+#contact_us .email-box .email-list  li a {
+    display: block;
+    padding-left: 90px;
+    position: relative;
+    color: #a4a4a4;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out
+}
+
+#contact_us .email-box .email-list  li a:before {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    max-height: 50px;
+    width: 55px;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain
+}
+
+#contact_us .email-box .email-list  li a:hover {
+    color: #00b9ef
+}
+
+#contact_us .email-box .email-list  li a.sell-email:before {
+    background-image: url("../images/icon1.png"/*tpa=http://www.robotechn.com/statics/my/images/icon1.png*/)
+}
+
+#contact_us .email-box .email-list  li a.sell-email:hover:before {
+    background-image: url("../images/icon1-hover.png"/*tpa=http://www.robotechn.com/statics/my/images/icon1-hover.png*/)
+}
+
+#contact_us .email-box .email-list  li a.market-email:before {
+    background-image: url("../images/icon2.png"/*tpa=http://www.robotechn.com/statics/my/images/icon2.png*/)
+}
+
+#contact_us .email-box .email-list  li a.market-email:hover:before {
+    background-image: url("../images/icon2-hover.png"/*tpa=http://www.robotechn.com/statics/my/images/icon2-hover.png*/)
+}
+
+#contact_us .email-box .email-list  li a.hi-email:before {
+    background-image: url("../images/icon3.png"/*tpa=http://www.robotechn.com/statics/my/images/icon3.png*/)
+}
+
+#contact_us .email-box .email-list  li a.hi-email:hover:before {
+    background-image: url("../images/icon3-hover.png"/*tpa=http://www.robotechn.com/statics/my/images/icon3-hover.png*/)
+}
+#contact_us .email-box .inner-tel {
+    text-align: center;
+    padding: 80px 0 0;
+    color: #a4a4a4;
+    font-size: 18px;
+}
+#contact_us .email-box .inner-tel .tel {
+    font-size: 36px;
+    color: #ddd;
+    font-weight: 700;
+    padding-top: 10px;
+}
+/*联系我们结束*/
+
+/*产品详情开始*/
+#roobot_parameter .sec1 img{
+    display: block;
+    width: 100%;
+}
+#roobot_parameter .sec2 {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#roobot_parameter .sec2 table .title td {
+    width: 100%;
+    height: 67px;
+    line-height: 67px;
+    background: #f4f4f4;
+    font-size: 28px;
+    color: #191919;
+}
+#roobot_parameter .sec2 table .desc td {
+    padding-top: 11px;
+}
+#roobot_parameter .sec2 table .desc td {
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #454545;
+}
+#roobot_parameter .sec2 table .pl83 {
+    padding-left: 83px;
+}
+#roobot_parameter .sec2 .detile img{
+    max-width: 100% !important;
+}
+/*产品详情结束*/
+/*新闻详情开始*/
+.news_title{
+    text-align: center;
+    margin: 0.7rem 0;
+}
+.news_title h3{
+    margin-bottom: 10px;
+}
+.news_title p{
+    font-size: 14px;
+}
+.news_cont{
+    padding: 15px;
+    margin-bottom: 0.5rem;
+}
+.news_cont img{
+    max-width: 100% !important;
+}
+.news_cont p{
+    width: 100% !important;
+}
+/*新闻详情结束*/
+
+/*定制页面开始*/
+#design{
+    padding: 0.7rem 15px ;
+}
+#design .design_title{
+    color: #0062b2;
+    margin-bottom: 0.3rem;
+    line-height: 49px;
+}
+#design .design_title img{
+    width: 50px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+#design .design_img img{
+    display: block;
+    width: 100%;
+}
+/*定制页面结束*/
